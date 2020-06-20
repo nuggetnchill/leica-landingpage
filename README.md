@@ -2,6 +2,7 @@
 
 Deployed site: https://m6.netlify.app/
 
+![Screenshot](https://media.giphy.com/media/iIH5paU1zDSbUblPJn/giphy.gif)
 
 
 

@@ -47,6 +47,21 @@ a {
   text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+  width: 0.19rem;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 5px;
+}
+
 .home {
   background: radial-gradient(#525252, #131313);
 }
@@ -310,7 +325,9 @@ footer h1 {
     -o-object-fit: contain;
        object-fit: contain;
   }
-  .showcase img, .showcase h2, .showcase .info {
+  .showcase img,
+  .showcase h2,
+  .showcase .info {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
